@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Gold Necklace",
+    "description": "Elegant 22K gold necklace with intricate design, perfect for weddings and special occasions.",
+    "price": 1299.99
+  },
+  {
+    "name": "Diamond Stud Earrings",
+    "description": "Classic round-cut diamond stud earrings set in 18K white gold.",
+    "price": 1499.99
+  },
+  {
+    "name": "Silver Bracelet",
+    "description": "Sterling silver bracelet with delicate charms and adjustable length.",
+    "price": 399.99
+  },
+  {
+    "name": "Pearl Pendant",
+    "description": "Beautiful freshwater pearl pendant with gold-plated chain, ideal for gifting.",
+    "price": 699.99
+  },
+  {
+    "name": "Gold Bangles Set",
+    "description": "Set of 4 traditional gold bangles with detailed engravings.",
+    "price": 1099.99
+  },
+  {
+    "name": "Sapphire Ring",
+    "description": "Exquisite sapphire ring set in 18K gold, perfect for engagements.",
+    "price": 1899.99
+  },
+  {
+    "name": "Emerald Pendant Necklace",
+    "description": "Stunning emerald pendant necklace with fine gold chain.",
+    "price": 1599.99
+  },
+  {
+    "name": "Ruby Drop Earrings",
+    "description": "Elegant ruby drop earrings with intricate gold detailing.",
+    "price": 1399.99
+  }
+]

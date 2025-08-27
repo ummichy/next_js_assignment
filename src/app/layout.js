@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./_components/Navbar";
+import Footer from "./_components/Footer";
+import SessionWrapper from "./_providers/SessionWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +23,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <SessionWrapper>
+        <Navbar></Navbar>
+       <main className="min-h-screen bg-gradient-to-b from-pink-50 via-yellow-50 to-pink-50">
+  {children}
+</main>
+
+        <Footer></Footer>
+        </SessionWrapper>
       </body>
     </html>
   );
